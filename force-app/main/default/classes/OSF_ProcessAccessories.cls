@@ -25,7 +25,7 @@ public class OSF_ProcessAccessories {
     
     // Wrapper class to hold the input variables from the flow
     public class AccessoryWrapper {
-        @InvocableVariable(label='Inquiry Position Collection' description='Collection of Inquiry records')
+        @InvocableVariable(label='Inquiry Position Collection' description='collection of Inquiry records')
         public List<Inquiry__c> positionsCollection;
         
         @InvocableVariable(label='Accessory Collection' description='Collection of accessory inputs')
